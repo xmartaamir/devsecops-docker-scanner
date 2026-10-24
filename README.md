@@ -10,3 +10,6 @@ An automated Python script designed to audit local Docker containers against sec
 - **Secret Leak Detection:** Scans environment variables for hardcoded credentials.
 - **Network Exposure Check:** Identifies risky `0.0.0.0` host port bindings.
 - **Reporting:** Outputs live console results and generates a structured `docker_security_audit.json` report.
+## Usage
+1. Install requirements: `pip install docker`
+2. Run script: `python3 docker_audit.py`
